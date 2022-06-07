@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="keywords" content="portfolio, web development, full stack web development, IT, Uzbekistan, Tashkent">
+
+  <meta name="description"
+    content="JavaScript, TypeScript, React, Next JS, Node JS, Express, MongoDB, full stack web development">
+
+  <link rel="icon" type="image/jpg" href="img/icon.png" />
+  <title>Sarvar Portfolio</title>
+  <link rel="stylesheet" href="style/all.min.css">
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+  <header class="header d-flex flex-column min-vh-100" id="up">
+    <div class="header__nav">
+      <div class="container">
+        <nav class="navbar-expand-md d-flex flex-wrap justify-content-between align-items-center">
+          <a class="logo text-uppercase" href="#up"><span class="logo__span">Sarvar </span>Sharapov</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fal fa-bars header__nav-btn"></span>
+          </button>
+
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="header__nav-link" href="#skills">My Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="header__nav-link" href="#experience">My Experience</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="header__nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Contacts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="tel:+998946704093">+ 998 94 670 40 93</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="mailto:sarvarik883@gmail.com">sarvarik883@gmail.com</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="header__content flex-grow-1 d-flex flex-column justify-content-center">
+      <div class="container">
+        <h1 class="header__content-title">HI !</h1>
+        <p class="header__content-text">My name Sarvar, I am a Full Stack Web Developer. I have been developing web apps
+          for 3 years and I am passionate about it. I constantly try to improve my skills and learn something new.</p>
+
+        <p class="header__content-text mt-3">Additional Links:</p>
+
+        <a href="https://www.linkedin.com/in/sarvar-sharapov-3a2391174/" class="main_tabs_btn mt-2"
+          target="_blank">LinkedIn</a>
+
+        <a href="https://github.com/sarvar883" class="main_tabs_btn mt-2" target="_blank">GitHub</a>
+
+        <p class="header__content-text mt-3">Want to look at my CV? You are welcome! Please click the button below.</p>
+
+        <a href="/img/CV Sarvar Sharapov.pdf" class="main_tabs_btn mt-2" target="_blank">Show CV</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="main" id="skills">
+    <div class="title">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 d-flex flex-column align-items-center">
+            <h2 class="title__heading">My Skills</h2>
+            <p class="title__text">I build web apps using the MERN Stack (MongoDB, Express, React, Node JS) in both
+              JavaScipt and TypeScript with modern syntax. Moreover, I have learnt Next.js to develop even more powerful
+              applications. I am
+              proficient in Bootstrap to create decent UIs. I always try to write clean and expressive code.</p>
+
+            <p class="title__text">I successfully completed several courses from some of the best universities. Here is
+              the list:</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main__slider">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide d-flex align-items-center" data-ride="carousel">
+          <a class="col-1 d-none d-md-flex" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <!-- <span class="fad fa-angle-left main__slider-button"></span> -->
+            <img src="img/arrow-left.png" alt="">
+          </a>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex flex-wrap">
+                <div class="main__slider-image col-12 col-lg-6 col-xl-4">
+                  <img src="img/software-quality.png" alt="" class="w-100 h-100 main__slider-img">
+                </div>
+                <div class="main__slider-info col-12 col-lg-6 col-xl-8">
+                  <h2 class="main__slider-title"><span class="main__slider-extra">Engineering
+                      Practices for </span> Building Quality Software
+                  </h2>
+                  <p class="main__slider-txt">This course offered by The University of Minnesota taught me practices,
+                    techniques and processes that can help team build high quality software. I also learnt to calculate
+                    a variety of quantitative metrics related to software quality.</p>
+
+                  <a class="main_tabs_btn mt-2" target="_blank"
+                    href="img/Coursera Engineering Practices for Building Quality Software.pdf">
+                    Show certificate</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-flex flex-wrap flex-row-reverse">
+                <div class="main__slider-image col-12 col-lg-6 col-xl-4">
+                  <img src="img/python.png" alt="" class="w-100 h-100 main__slider-img">
+                </div>
+                <div class="main__slider-info col-12 col-lg-6 col-xl-8">
+                  <h2 class="main__slider-title"><span class="main__slider-extra">Python</span> Data Structures
+                  </h2>
+                  <p class="main__slider-txt">This course offered by The University of Michigan taught me the core data
+                    structures of Python. The main focus of the course is to use the Python built-in data structures
+                    such as lists, dictionaries, and tuples to perform increasingly complex data analysis.</p>
+
+                  <a href="img/Coursera Python Data Structures.pdf" class="main_tabs_btn mt-2" target="_blank">Show
+                    certificate</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-flex flex-wrap flex-row-reverse">
+                <div class="main__slider-image col-12 col-lg-6 col-xl-4">
+                  <img src="img/agile.jpg" alt="" class="w-100 h-100 main__slider-img">
+                </div>
+                <div class="main__slider-info col-12 col-lg-6 col-xl-8">
+                  <h2 class="main__slider-title"><span class="main__slider-extra">Agile and Scrum</span> in IT projects
+                  </h2>
+                  <p class="main__slider-txt">Offered by the Tomsk State University, the course gives a complete
+                    understanding of Agile and Scrum. How development teams use Agile methods and what advantages they
+                    bring to the table. It puts a heavy emphasis to practical exercises. For example,
+                    teaches to create a scrum board, make user stories using the Agile principles. </p>
+
+                  <a href="img/Coursera Agile Scrum.pdf" class="main_tabs_btn mt-2" target="_blank">Show certificate</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <a class="col-1 d-none d-md-flex justify-content-end" href="#carouselExampleIndicators" role="button"
+            data-slide="next">
+            <!-- <span class="fad fa-angle-right main__slider-button"></span> -->
+            <img src="img/arrow-right.png" alt="">
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="title" id="experience">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 d-flex flex-column align-items-center">
+            <h2 class="title__heading">My Experience</h2>
+            <p class="title__text">Please, take a look at the projects I completed and my work experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main__tabs">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8 col-lg-7">
+            <ul class="nav justify-content-around" role="tablist">
+              <li class="nav__item"><a href="#pro-team" class="main__tabs-link active" data-toggle="tab">Pro Team</a>
+              </li>
+              <li class="nav__item"><a href="#blockchain-app" class="main__tabs-link" data-toggle="tab">Decentralized
+                  Blockchain App</a>
+              </li>
+              <li class="nav__item"><a href="#video-streaming" class="main__tabs-link" data-toggle="tab">Video Streaming
+                  App</a></li>
+              <li class="nav__item"><a href="#chowis" class="main__tabs-link" data-toggle="tab">Chowis</a></li>
+              <li class="nav__item"><a href="#cloudinary" class="main__tabs-link" data-toggle="tab">Cloudinary Image
+                  Upload</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content">
+      <div class="tab-pane fade show active" role="tabpanel" id="pro-team">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6 asd">
+              <img src="img/pro-team-dark.png" alt="" class="main_tabs_img w-100 h-100">
+            </div>
+
+            <div class="col-11 col-lg-6">
+              <div class="main_tabs_info d-flex flex-column justify-content-between">
+                <div>
+                  <h3 class="main_tabs_title">Pro Team</h3>
+                  <p class="main_tabs_text"> This is a Web app for disinfection company. Written in MERN-stack (MongoDB,
+                    Express, React, NodeJS). The app is used to manage the company:</p>
+
+                  <ul class="list-group">
+                    <li class="list-group-item">- keep track of incoming orders,</li>
+                    <li class="list-group-item">- monitor performance of each worker and the company as a whole,</li>
+                    <li class="list-group-item">- manage warehouse of materials,</li>
+                    <li class="list-group-item">- collect and store data about all clients,</li>
+                    <li class="list-group-item">- reduce paperwork and automate some processes.</li>
+                  </ul>
+
+                  <p class="main_tabs_text mt-2">I have been maintaining and adding new features to this project for
+                    more than 2 years. Click the button below to see the source code.</p>
+                </div>
+
+                <div class="mt-3">
+                  <a target="_blank" href="https://github.com/sarvar883/proteam-for-md" class="main_tabs_btn">Show
+                    GitHub Repo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" role="tabpanel" id="blockchain-app">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6 asd">
+              <img src="img/blockchain.jpg" alt="" class="main_tabs_img w-100 h-100">
+            </div>
+
+            <div class="col-11 col-lg-6">
+              <div class="main_tabs_info d-flex flex-column justify-content-between">
+                <div>
+                  <h3 class="main_tabs_title">Decentralized Blockchain App</h3>
+                  <p class="main_tabs_text">
+                    This is a mini-decentralized blockchain app to transfer coins between users. This is the code for 1
+                    node in the blockchain. New nodes could easily be added by creating new public-private key pairs.
+                  </p>
+                  <p class="main_tabs_text mt-2">
+                    React and Node.js are used for client and server side respectively.
+                  </p>
+                  <p class="main_tabs_text mt-2">
+                    This app closely imitates how modern blockchains (including Bitcoin, Ethereum) work, how they create
+                    and verify transactions via the Proof of work concept.
+                  </p>
+                </div>
+
+                <div class="mt-3">
+                  <a target="_blank" href="https://github.com/sarvar883/decentralized-blockchain-app"
+                    class="main_tabs_btn">Show GitHub Repo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" role="tabpanel" id="video-streaming">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6 asd">
+              <img src="img/video-streaming.png" alt="" class="main_tabs_img w-100 h-100">
+            </div>
+
+            <div class="col-11 col-lg-6">
+              <div class="main_tabs_info d-flex flex-column justify-content-between">
+                <div>
+                  <h3 class="main_tabs_title">Video Streaming App</h3>
+                  <p class="main_tabs_text">
+                    A Video Streaming App with Node, React and Next.js. Moreover, this project provides an example of
+                    how to organize a full stack project and make Next.js work efficiently with Node.js.
+                  </p>
+                  <p class="main_tabs_text mt-2">
+                    Entire app is written in TypeScript. Latest Bootstrap 5 and Next v12 are used.
+                  </p>
+                  <p class="main_tabs_text mt-2">
+                    Server-side rendering can easily be added to the application.
+                  </p>
+                  <p class="main_tabs_text mt-2">
+                    Build your own Youtube using this template!
+                  </p>
+                </div>
+
+                <div class="mt-3">
+                  <a target="_blank" href="https://github.com/sarvar883/video-streaming-app" class="main_tabs_btn">Show
+                    GitHub Repo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" role="tabpanel" id="chowis">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6 asd">
+              <img src="img/chowis.jpg" alt="" class="main_tabs_img w-100 h-100">
+            </div>
+
+            <div class="col-11 col-lg-6">
+              <div class="main_tabs_info d-flex flex-column justify-content-between">
+                <div>
+                  <h3 class="main_tabs_title">Full Stack Developer at Chowis</h3>
+                  <p class="main_tabs_text">
+                    I have been a Full Stack Developer at Chowis - South Korean technology company specializing in
+                    optic, video image processing and software development.
+                  </p>
+
+                  <p class="main_tabs_text mt-2">I developed from scratch a web app to accounting devices. Moreover, I
+                    was responsible for creating and deploying a new backend Node.js API and maintaining existing APIs.
+                  </p>
+                </div>
+
+                <div class="mt-2">
+                  <a target="_blank" href="https://chowis.com/" class="main_tabs_btn">Chowis Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" role="tabpanel" id="cloudinary">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6  asd">
+              <img src="img/cloudinary.png" alt="" class="main_tabs_img w-100 h-100">
+            </div>
+            <div class="col-11 col-lg-6">
+              <div class="main_tabs_info d-flex flex-column justify-content-between">
+                <div>
+                  <h3 class="main_tabs_title">Cloudinary Image Upload</h3>
+                  <p class="main_tabs_text">
+                    This is a MERN-stack application to upload images to Cloudinary - a popular service to store images.
+                    The app provides useful techniques to upload and manage image files in your application. App
+                    performance is improved with React Suspense feature.
+                  </p>
+
+                  <p class="main_tabs_text mt-2">React application is written in TypeScript.</p>
+                </div>
+
+                <div class="mt-3">
+                  <a target="_blank" href="https://github.com/sarvar883/cloudinary_image_upload"
+                    class="main_tabs_btn">Show GitHub Repo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex flex-column align-items-center justify-content-between">
+          <a class="logo text-uppercase" href="#up"><span class="logo__span">Sarvar </span>Sharapov</a>
+          <nav class="nav__footer__nav">
+            <ul class="footer__nav-list d-flex">
+              <li class="footer_li"><a href="#skills" class="footer__nav-link">My Skills</a></li>
+              <li class="footer_li"><a href="#experience" class="footer__nav-link">My Experience</a></li>
+            </ul>
+          </nav>
+
+          <p class="main_tabs_title">Please, feel free to contact me!</p>
+
+          <ul class=" footer_contact_list d-flex flex-wrap justify-content-center">
+            <li>
+              <a href="mailto:sarvarik883@gmail.com" class="footer_contact_link">sarvarik883@gmail.com</a>
+            </li>
+
+            <li>
+              <a href="tel:+998946704093" class="footer_contact_link">+ 998 94 670 40 93</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
